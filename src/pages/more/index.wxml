@@ -1,0 +1,33 @@
+<view class="container">
+  <view class="userInfo">
+    <view class="avatar-container">
+      <open-data type="userAvatarUrl" class="avatar"></open-data>
+    </view>
+    <view class="statistics">
+      <text>已养成习惯：{{doneCount}}</text>
+      <text>待养成习惯：{{unDoneCount}}</text>
+    </view>
+  </view>
+  <view class="more-action">
+    <navigator class="action-item" url="../fininshPlan/index">
+      <text>养成中</text>
+      <image src="./images/right.png"></image>
+    </navigator>
+    <navigator class="action-item" url="../undonePlan/index">
+      <text>待养成</text>
+      <image src="./images/right.png"></image>
+    </navigator>
+    <navigator class="action-item" url="../addPlan/index">
+      <text>新增习惯</text>
+      <image src="./images/right.png"></image>
+    </navigator>
+    <navigator class="action-item" url="../addDiary/index">
+      <text>新增日记</text>
+      <image src="./images/right.png"></image>
+    </navigator>
+    <navigator class="action-item last-item" url="../anniversary/index">
+      <text>纪念日</text>
+      <image src="./images/right.png"></image>
+    </navigator>
+  </view>
+</view>

@@ -1,0 +1,21 @@
+<view class="container">
+  <view wx:if="{{list.length}}" class="anniversary-list-container">
+    <view wx:for="{{list}}" wx:key="unique" class="anniversary-item">
+      <view class="base title">{{item.title}}</view>
+      <view class="base">开始时间：{{item.date}}</view>
+      <view class="base">{{
+        item.time < 0 ? item.title+'已经'+ item.time*-1 + '天了' : '距离'+item.title+'还有'+item.time + '天'
+      }}</view>
+    </view>
+  </view>
+  <view wx:if="{{!list.length && !isLoading}}">
+    <empty-data></empty-data>
+    <view class="submit-container" bindtap="toAdd">
+      <view class="submit">快去添加一个叭～</view>
+    </view>
+  </view>
+  
+</view>
+<view wx:if="{{!isShowNew && list.length}}" class="add-new-anniversary" bindtap="toAdd">
+  <image src="../../images/add.png"></image>
+</view>

@@ -1,0 +1,7 @@
+<view class="planItem">
+    <view class="planContent">
+      <image src="../../images/{{item.iconName}}.png" />
+      <text>{{item.planName}}</text>
+    </view>
+    <text class="planaction {{item.isdone ? '': 'isNotDone'}}" bindtap="clockIn" data-item="{{item}}">{{item.isdone ? '已完成打卡' + item.count + '次': '去打卡'}}</text>
+</view>

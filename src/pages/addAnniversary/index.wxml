@@ -1,0 +1,15 @@
+<view class="new-anniversary-container">
+    <view class="section-tips">请在👇 面输入纪念日名称（方便你这个金鱼回忆😒 ）</view>
+    <view class="input-plan-container">
+      <input type="text" auto-focus placeholder="请输入..." model:value="{{title}}" />
+    </view>
+    <view class="section-tips">请在👇 面选择纪念日日期（你可看清楚了😒 ）</view>
+    <picker mode="date" value="{{date}}"  bindchange="bindDateChange" class="date-picker">
+      <view class="picker">
+        {{date}}
+      </view>
+    </picker>
+  </view>
+<view class="submit-container" bindtap="add">
+  <view class="submit">瞅准了那就添加叭～</view>
+</view>

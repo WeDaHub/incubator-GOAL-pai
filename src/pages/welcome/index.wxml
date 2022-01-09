@@ -1,0 +1,3 @@
+<view class="welcome" bindtap="login">
+  <image src="./hi.png"/>
+</view>

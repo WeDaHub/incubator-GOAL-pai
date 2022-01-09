@@ -1,0 +1,8 @@
+<view class="container">
+  <view class="signin-container">
+    <image src="./signin.png"></image>
+  </view>
+</view>
+<view class="signin-tips">
+  <text>恭喜你，又完成了一项计划，可真是不容易呢，你个懒鬼，拖延症 😒 😒～～</text>
+</view>

@@ -1,0 +1,17 @@
+<!--index.wxml-->
+<view class="container" wx:if="{{list.length}}">
+  <plan-item wx:for="{{list}}" wx:key="unique" item="{{item}}" bindtap="toSignin" data-item="{{item}}"></plan-item>
+</view>
+<view class="container" wx:if="{{!isLoading && !list.length}}">
+  <empty-data wx:if="{{isNewUser}}"></empty-data>
+  <view class="planlist-tips" wx:if="{{isNewUser}}">
+    呐 😒 ～快去右下角，对就是那个更多哪里，去添加一个强迫自己养成的习惯叭～ 💩 💩
+  </view>
+  <!--  -->
+  <view  class="is-done-container" wx:if="{{!isNewUser && !isLoading}}">
+    <view class="planlist-tips">小丑竟然是我自己？你都今天居然都打卡完成了？不可思议～😒</view>
+    <view class="nice">
+      <image src="./nice.png"></image>
+    </view>
+  </view>
+</view>

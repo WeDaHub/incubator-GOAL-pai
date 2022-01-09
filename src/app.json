@@ -1,0 +1,47 @@
+{
+  "pages": [
+    "pages/welcome/index",
+    "pages/anniversary/index",
+    "pages/addDiary/index",
+    "pages/signIn/index",
+    "pages/addAnniversary/index",
+    "pages/index/index",
+    "pages/diary/index",
+    "pages/more/index",
+    "pages/addPlan/index",
+    "pages/fininshPlan/index",
+    "pages/undonePlan/index"
+  ],
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#FFF100",
+    "navigationBarTitleText": "GOAL派",
+    "navigationBarTextStyle": "black"
+  },
+  "usingComponents": {
+    "plan-item": "./components/plan-item/plan-item",
+    "empty-data": "./components/empty-data/empty-data"
+  },
+  "sitemapLocation": "sitemap.json",
+  "style": "v2",
+  "tabBar": {
+    "color": "#999",
+    "selectedColor": "#333",
+    "backgroundColor": "#FFF100",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "今日"
+      },
+      {
+        "pagePath": "pages/diary/index",
+        "text": "日记"
+      },
+      {
+        "pagePath": "pages/more/index",
+        "text": "更多"
+      }
+    ]
+  }
+}

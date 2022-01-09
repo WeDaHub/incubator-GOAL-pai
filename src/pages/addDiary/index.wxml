@@ -1,0 +1,14 @@
+<view class="container">
+  <view class="icon-desc">请在🦐面输入日记标题叭，你不输入我打你哦～</view>
+  <view class="input-plan-container">
+    <input type="text" auto-focus placeholder="请输入..." model:value="{{title}}" />
+  </view>
+  <view class="icon-desc">请在🦐面输入日记正文叭，爱写不写又不是我的～</view>
+  <view class="content">
+    <textarea bindblur="bindTextAreaBlur" auto-height placeholder="请输入..." model:value="{{content}}" />
+  </view>
+  <view class="tips">当前页面比较简陋，先凑活着用😂～</view>
+</view>
+<view class="submit-container" bindtap="add">
+  <view class="submit">提交日记</view>
+</view>

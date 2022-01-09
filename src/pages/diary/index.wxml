@@ -1,0 +1,16 @@
+<view class="container" wx:if="{{diaryList.length}}">
+  <view wx:for="{{diaryList}}" wx:key="unique" class="diaryitem">
+    <view class="title">
+      <text>{{item.title}}</text>
+    </view>
+    <view class="content">
+      <text>{{item.content}}</text>
+    </view>
+    <view class="time">
+      <text>{{item.time}}</text>
+    </view>
+  </view>
+</view>
+<view class="container" wx:if="{{!isLoading && !diaryList.length}}">
+  <empty-data></empty-data>
+</view>

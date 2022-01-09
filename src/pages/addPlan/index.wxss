@@ -1,0 +1,59 @@
+.container {
+  margin: 15px;
+}
+.input-plan-container {
+  border: 1px solid #f0f0f0;
+  height: 50px;
+}
+.input-plan-container input{
+  height: 50px;
+  padding: 10px;
+  box-sizing: border-box;
+  font-size: 13px;
+}
+.icon-desc {
+  font-size: 13px;
+  margin: 15px 0;
+  color: #888;
+}
+.plan-icons-list {
+  height: 100px;
+}
+.submit-container {
+  position: fixed;
+  width: 100%;
+  bottom: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.submit-container image {
+  width: 70px;
+  height: 70px;
+  box-shadow: 3px 3px 8px 0px #AAAAAA;
+  border-radius: 100%;
+}
+.plan-icons-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.icon-container {
+  width: 45px;
+  height: 45px;
+  background-color: #fff100;
+  border-radius: 100%;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+}
+.icon-container-active {
+  border: 1px solid greenyellow !important;
+}
+.icon-container image {
+  width: 100%;
+  height: 100%;
+  border: 1px solid #000;
+  border-radius: 100%;
+  box-shadow: 3px 3px 8px 0px #AAAAAA;
+}

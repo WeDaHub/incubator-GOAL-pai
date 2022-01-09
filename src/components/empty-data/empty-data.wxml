@@ -1,0 +1,4 @@
+<view class="empty-container">
+  <image src="./empty.png"></image>
+</view>
+<view class="empty-tips">这里比你脸都干净，还不反思自己😒 😒 😒</view>

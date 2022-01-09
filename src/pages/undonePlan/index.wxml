@@ -1,0 +1,6 @@
+<view class="container" wx:if="{{list.length && !isLoading}}">
+  <plan-item wx:for="{{list}}" wx:key="unique" item="{{item}}"></plan-item>
+</view>
+<view class="container" wx:else>
+  <empty-data></empty-data>
+</view>

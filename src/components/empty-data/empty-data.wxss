@@ -1,0 +1,16 @@
+.empty-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 60px;
+}
+.empty-container image {
+  width: 200px;
+  height: 200px;
+}
+.empty-tips {
+  margin-top: 40px;
+  color: #888;
+  font-size: 13px;
+  text-align: center;
+}

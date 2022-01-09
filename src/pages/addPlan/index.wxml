@@ -1,0 +1,15 @@
+<view class="container">
+  <view class="icon-desc">请在🦐面输入你期望培养的新习惯叭～</view>
+  <view class="input-plan-container">
+    <input type="text" auto-focus placeholder="请输入..." model:value="{{planName}}" />
+  </view>
+  <view class="icon-desc">请在🦐面有限图标中选择一个作为标记吧～</view>
+  <view class="plan-icons-list">
+    <view class="icon-container" wx:for="{{iconsList}}" wx:key="unique" bindtap="handleTap" data-item="{{item}}">
+      <image src="../../images/{{item}}.png" class="{{current === item ? 'icon-container-active': ''}}"></image>
+    </view>
+  </view>
+</view>
+<view class="submit-container" bindtap="add">
+  <image src="../../images/add.png"></image>
+</view>

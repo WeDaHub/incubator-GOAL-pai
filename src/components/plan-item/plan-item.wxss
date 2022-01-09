@@ -1,0 +1,33 @@
+.planItem {
+  height: 100px;
+  background-color: #FFF100;
+  width: 100%;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  position: relative;
+}
+.planaction {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  font-size: 12px;
+  color: #333333;
+}
+.isNotDone {
+  color: #009688;
+}
+.planContent {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  padding: 0 15px;
+}
+.planContent image{
+  width: 40px;
+  height: 40px;
+}
+
+.planContent text {
+  margin-left: 15px;
+  color: #333333;
+}

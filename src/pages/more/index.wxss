@@ -1,0 +1,48 @@
+page {
+  background-color: #F6F6F6;
+}
+.userInfo {
+  height: 150px;
+  background-color: #FFF100;
+}
+.avatar-container {
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 30px;
+  border-bottom: 1px solid #ffffff;
+}
+.avatar-container .avatar {
+  width: 60px;
+  height: 60px;
+  border-radius: 100%;
+  overflow: hidden;
+}
+.statistics {
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 30px;
+  font-size: 12px;
+  color: #333;
+}
+.more-action .action-item {
+  height: 50px;
+  display: flex;
+  align-items: center;
+  color: #333;
+  padding: 0 15px;
+  justify-content: space-between;
+  font-size: 13px;
+  margin-top: 10px;
+  background-color: #ffffff;
+}
+.more-action .action-item image {
+  width: 20px;
+  height: 20px;
+}
+.more-action .last-item {
+  border: none;
+} 

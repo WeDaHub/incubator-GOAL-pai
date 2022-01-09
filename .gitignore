@@ -1,0 +1,11 @@
+node_modules
+.DS_Store
+npm-debug.log
+npm-debug.log.*
+lerna-debug.log.*
+.idea
+.vscode
+
+.npmrc
+package-lock.json
+.vscode

@@ -1,0 +1,100 @@
+.submit-container {
+  position: fixed;
+  bottom: 40px;
+  width: 100%;
+}
+.submit {
+  background-color: #fff100;
+  height: 50px;
+  line-height: 50px;
+  color: #666;
+  margin: 0 15px;
+  text-align: center;
+  border-radius: 10px;
+}
+.new-anniversary-container {
+  margin: 15px;
+}
+.section-tips {
+  font-size: 14px;
+  color: #999;
+  margin: 15px 0;
+}
+.input-plan-container {
+  border: 1px solid #f0f0f0;
+  height: 50px;
+  border-radius: 5px;
+}
+.input-plan-container input{
+  height: 50px;
+  padding: 10px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+.date-picker {
+  font-size: 14px;
+  color: #333;
+}
+.date-picker .picker {
+  border: 1px solid #f0f0f0;
+  height: 50px;
+  line-height: 50px;
+  box-sizing: border-box;
+  padding: 0 10px;
+  border-radius: 5px;
+}
+.radio-group-container .radio-item {
+  display: flex;
+  align-items: center;
+  color: #333;
+  height: 40px;
+  line-height: 40px;
+  font-size: 14px;
+}
+.radio-group-container .radio-item .outter {
+  width: 20px;
+  height: 20px;
+  border: 1px solid #ccc;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all .5s;
+}
+.radio-group-container .radio-item .active {
+  background-color: #fff100;
+}
+.radio-group-container .radio-item .inner {
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+  background-color: #fff;
+}
+.anniversary-list-container {
+  margin: 15px;
+}
+.anniversary-item {
+  height: 100px;
+  background-color: #fff100;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+.anniversary-item .base {
+  height: 30px;
+  line-height: 30px;
+  font-size: 14px;
+  color: #333;
+  padding: 0 15px;
+}
+.add-new-anniversary image {
+  width: 50px;
+  height: 50px;
+  position: fixed;
+  right: 20px;
+  bottom: 40px;
+  opacity: 0.8;
+}
+.title {
+  font-size: 16px;
+  font-weight: bold;
+}
